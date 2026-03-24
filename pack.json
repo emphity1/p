@@ -12,13 +12,15 @@
       "read"
     ],
     "deny": [
-      "group:runtime"
+      "group:runtime",
+      "web_search",
+      "web_fetch"
     ]
   },
   "metadata": {
     "pack_name": "scout",
-    "pack_version": "4.10.1",
-    "description": "Minimal scout: single parallel batch, minimal follow-ups, inbox+cal+sprint for action tasks.",
+    "pack_version": "4.11.2",
+    "description": "v4.10.1 + deny web_search/web_fetch to reduce wasted tool calls.",
     "target_suite": "clawbench_v1"
   }
 }
